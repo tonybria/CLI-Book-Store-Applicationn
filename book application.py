@@ -85,5 +85,20 @@ def main():
         else:
             print("Invalid choice. Please try again.")
 
+
+class Author(Base):
+    __tablename__ = "author"
+
+    id = Column(Integer, primary_key = True)
+    name = Column(String)
+class Genre(Base):
+    __tablename__ = "genre"
+    
+    id = Column(Integer, primary_key = True)
+    name  = Column(String)
+
+
+
+
 if __name__ == "__main__":
     main()
