@@ -26,7 +26,8 @@ Latto's Book Store CLI Application is the solution to these challenges. It offer
 5. Quit: Exit the application.
 
 ## License
-This project is licensed under the [License Name] - see the LICENSE.md file for details.
+MIT License.
+
 
 
 
